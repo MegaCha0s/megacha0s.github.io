@@ -22,6 +22,10 @@
     transform: translate(-50%, -50%);
 }
 
+#social-footer {
+    margin-top: 200px;
+}
+
 .text {
     height: 100vh;
     width: 100%;
@@ -33,7 +37,7 @@
     text-align: center;
     line-height: 200px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding-top: 250px;
