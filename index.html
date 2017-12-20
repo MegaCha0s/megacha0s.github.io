@@ -1,1 +1,90 @@
-Hello World
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#3b3b3b">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="Favicon.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="averion.min.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="js.css">
+    <link rel="stylesheet" type="text/css" href="star-animation.css">
+    <link rel="stylesheet" href="style.css">
+    <div class="main">
+        <div class="bg"></div>
+        <div class="text">Nishan</div>
+    </div>
+    <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+    </div>
+    <script>
+        document.onkeypress = function(event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-12');
+                return false;
+            }
+        }
+        document.onmousedown = function(event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+        document.onkeydown = function(event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+    </script>
+    <!––add all the brackets in under this––>
+
+</head>
+
+<body>
+
+    <!--CSS Spinner-->
+    <div class="cssload-container">
+        <div class="cssload-item cssload-moon"></div>
+    </div>
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            //Preloader
+            $(window).load(function() {
+                preloaderFadeOutTime = 1500;
+
+                function hidePreloader() {
+                    var preloader = $('.cssload-container');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
+
+</body>
+
+</html>
