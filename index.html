@@ -4,7 +4,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title></title>
+    <title>Nishan Tamang</title>
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#3b3b3b">
@@ -12,6 +12,40 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <script>
+        document.onkeypress = function(event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-12');
+                return false;
+            }
+        }
+        document.onmousedown = function(event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+        document.onkeydown = function(event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+    </script>
+    <!––add all the brackets in under this––>
+
+</head>
+
+<body>
     <div class="main">
         <div class="bg"></div>
         <div class="text">Nishan Tamang</div>
@@ -59,40 +93,6 @@
 
 
     </footer>
-    <script>
-        document.onkeypress = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                //alert('No F-12');
-                return false;
-            }
-        }
-        document.onmousedown = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                //alert('No F-keys');
-                return false;
-            }
-        }
-        document.onkeydown = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                //alert('No F-keys');
-                return false;
-            }
-        }
-    </script>
-    <script>
-        document.addEventListener("contextmenu", function(e) {
-            e.preventDefault();
-        }, false);
-    </script>
-    <!––add all the brackets in under this––>
-
-</head>
-
-<body>
-
     <!--CSS Spinner-->
     <div class="cssload-container">
         <div class="cssload-item cssload-moon"></div>
