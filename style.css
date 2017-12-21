@@ -53,6 +53,7 @@
 .bg {
     height: 100vh;
     width: 100%;
+    background-image: url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/2137/2137123-1366x768-[DesktopNexus.com].jpg?st=tEZKtRcmrNa1c4VIDOK2UQ&e=1513841208');
     background-size: 100% 100%;
     background-position: center;
     transform: rotateY(180deg);
